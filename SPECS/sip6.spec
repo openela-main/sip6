@@ -2,7 +2,7 @@
 
 Name:           sip6
 Version:        6.6.2
-Release:        1%{?dist}.1
+Release:        2%{?dist}
 Summary:        SIP - Python/C++ Bindings Generator
 %py_provides    python3-sip6
 
@@ -49,9 +49,9 @@ Python bindings for wxWidgets.}
 %{python3_sitearch}/sipbuild/
 
 %changelog
-* Tue Jul 25 2023 Jan Grulich <jgrulich@redhat.com> - 6.6.2-1.1
+* Tue Jul 25 2023 Jan Grulich <jgrulich@redhat.com> - 6.6.2-2
 - Fixed the handling of exceptions that sub-class C++ exceptions
-  Resolves: bz#2225605
+  Resolves: bz#2225259
 
 * Mon Oct 24 2022 Jan Grulich <jgrulich@redhat.com> - 6.6.2-1
 - 6.6.2
